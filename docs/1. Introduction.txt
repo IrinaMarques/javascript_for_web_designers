@@ -1,0 +1,19 @@
+1. What is JavaScript? 
+-----------------------
+
+JavaScript is a programming language. 
+Such as P.H.P, Pascal, C, C++ are also programming languages.
+
+Can run locally in the browser but can also run ion a server using node J.S.
+Is one of the three core technologies used to produce content for the worldwide web.
+
+JS + HTML + CSS
+
+
+2.How to work with JavaScript?
+-------------------------------
+
+3 different ways:
+1 - browser console
+2 - writing inline in HTML document
+3 - use the dedicated javaScript files in a file called script.js <script src='script.js'></script>
