@@ -20,4 +20,28 @@ item2 = "Hello!";
 Variables have something called a scope. Referes to the context in which these variables are available. 
 In the previous case - item item2 - they have a global scope, they are available globally.
 
-Later we'll see that it's possible to create a local scope inside, for example, a function or a specific block of code. in that case the variable which has local scope is only available within that function or that block of code 
+Later we'll see that it's possible to create a local scope inside, for example, a function or a specific block of code. in that case the variable which has local scope is only available within that function or that block of code.
+
+2.2 Data Types
+---------------
+
+There are 7 data types in total:
+- 5 primary 
+- 2 composit
+
+Primary:
+- string - group of characters
+- number
+- boolean - can only hold two values - True or False
+- null - single value that is null, it's used to erase the contents of a variable without deleting the variable itself
+- undefined - when we trying to access an object property that doesn't exist or trying to access a variable that has not been given a value
+
+The typeof operator - nice way of checking the type of variable
+In the console on the beowser we write ex. 
+typeof false - and will give "boolean"
+typeof carModel - "undefined"
+typeof name - "string"
+typeof "false" - "string"
+typeof age - "object" 
+
+
