@@ -1,0 +1,23 @@
+2.1 Variables
+--------------
+1. Variables
+To declare a variable start with var.
+
+Then identifiers have specifc rules they can contain letters, digits, underscores and dollar signs, they must begin with the letter.
+
+Names are case sensitive - bob it's not the same as Bob
+Reserved keywords from JavaScript are prohibited from being used as identifiers
+
+var item,
+    item2;
+
+2. Values
+Can specify a value
+
+item = 5;
+item2 = "Hello!";
+
+Variables have something called a scope. Referes to the context in which these variables are available. 
+In the previous case - item item2 - they have a global scope, they are available globally.
+
+Later we'll see that it's possible to create a local scope inside, for example, a function or a specific block of code. in that case the variable which has local scope is only available within that function or that block of code 
