@@ -44,4 +44,62 @@ typeof name - "string"
 typeof "false" - "string"
 typeof age - "object" 
 
+2.3 Arrays
+-----------
 
+Array it's a first "composite" data type in JavaScript.
+
+Array it's a list of values.
+
+In the console we write:
+list
+list2
+list3
+
+The lists goes from 0 to 4.
+In the console we write:
+list[0] --> "John"
+list[2] --> "Sander"
+list[5] --> undefined
+list[4] --> false
+
+Arrays have: 
+- Properties
+- Methods.
+
+Properties - length property give you the number of items of that array
+In the console we write:
+list.length --> 5
+list2.length --> 0
+list3.length --> 2
+
+Methods:
+- push - add an item to the end of an array
+- pop - remove one item from the end of the array
+- shift - remove an item from the front or the start of an array
+- unshift - add to the front of an array
+- indexOf - to find the index of a specific item in an array
+
+Ex. - push
+In the console we write:
+list.push("Hi!") --> 6
+list --> Array["John", "Marie", "Sander", 32, false, "Hi!"]
+
+Ex. - pop
+In the console we write:
+list.pop() --> "Hi!"
+list --> Array["John", "Marie", "Sander", 32, false]
+
+Ex. - shift
+In the console we write:
+list.shift() --> "John"
+list --> Array["Marie", "Sander", 32, false]
+
+Ex. - unshift
+In the console we write:
+list.unshift(10) --> "5"
+list --> Array[10, "John", "Marie", "Sander", 32, false]
+
+Ex. - indexOf
+In the console we write:
+list.indexOf(32) --> "3"
