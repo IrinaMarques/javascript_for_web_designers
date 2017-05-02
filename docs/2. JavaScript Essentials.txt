@@ -104,5 +104,29 @@ Ex. - indexOf
 In the console we write:
 list.indexOf(32) --> "3"
 
+
 2.4 Objects
 -----------
+
+Objects is the second "composite" data type in JavaScript.
+
+Starts with the understanding of "properties" - association between a name and a value. Ex. color = red
+
+Can also have functions as values in which case those properties - called methods.
+
+Objects are collection of properties.
+
+We set the variables as the properties and then we go to the console and type:
+person --> Object {name: "Kirk", age: 43, height: 1.76, married: true}
+
+We can use objects inside objects in a way that an object is the value for a property.
+
+In the console:
+person --> 
+Object {name: "Kirk", age: 43, height: 1.76, married: true, car: Object}
+
+person.car
+ --> Object {make: "Honda"}
+
+person.car.make --> 
+"Honda"
