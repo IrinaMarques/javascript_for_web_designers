@@ -103,3 +103,6 @@ list --> Array[10, "John", "Marie", "Sander", 32, false]
 Ex. - indexOf
 In the console we write:
 list.indexOf(32) --> "3"
+
+2.4 Objects
+-----------
