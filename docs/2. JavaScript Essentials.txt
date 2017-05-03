@@ -1,3 +1,4 @@
+--------------
 2.1 Variables
 --------------
 1. Variables
@@ -22,6 +23,8 @@ In the previous case - item item2 - they have a global scope, they are available
 
 Later we'll see that it's possible to create a local scope inside, for example, a function or a specific block of code. in that case the variable which has local scope is only available within that function or that block of code.
 
+
+---------------
 2.2 Data Types
 ---------------
 
@@ -44,6 +47,7 @@ typeof name - "string"
 typeof "false" - "string"
 typeof age - "object" 
 
+-----------
 2.3 Arrays
 -----------
 
@@ -104,7 +108,7 @@ Ex. - indexOf
 In the console we write:
 list.indexOf(32) --> "3"
 
-
+-----------
 2.4 Objects
 -----------
 
@@ -131,7 +135,7 @@ person.car
 person.car.make --> 
 "Honda"
 
-
+--------------
 2.5 Operators
 --------------
 
@@ -227,3 +231,15 @@ x+="hello!"
 "32" + "3232"
 "323232"
 
+-----------------------
+2.6 If/Else Statements
+-----------------------
+
+Allows to execute various blocks of code if a specific condition is met.
+
+if(condition)
+
+if(this consition is not met) {} else {then we do this}
+
+Ternary Operator or conditional operator:
+It's a special case because it's only a JavaScript operator that takes three operates
