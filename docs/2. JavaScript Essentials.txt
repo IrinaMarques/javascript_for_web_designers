@@ -130,3 +130,100 @@ person.car
 
 person.car.make --> 
 "Honda"
+
+
+2.5 Operators
+--------------
+
+There are a few different types.
+
+1. Assignment operator:
+Assign a value to its left operand based on the value of its right operand. 
+
+Equal assignment - equal operator =
+ex. x = y;
+
+Addition assignment - addition operator
+ex. x = x + y;
+or  x += y;
+
+Subtraction assignment
+ex. x -=y;
+or  x = x - y;
+
+Multiplication assignment
+ex. x *= y;
+or  x = x * y;
+
+Division assignment
+ex. x /= y;
+or  x = x / y;
+
+Other assignments
+
+2. Comparison and logical operators:
+Compare its operands and return a value based on the result of that comparison.
+If the comparison is true --> true
+If the comparison is false --> false
+
+2.1 Comparison operators:
+- Equals to --> x == y (just compare the value)
+- Not equal --> x != y
+- Strict equal --> x === y (considers the operand type)
+- Greater than --> x > y 
+- Smaller than --> x < y
+
+2.2 Logical operators:
+- and --> x && y
+- or --> x || y
+- not --> !x (not x)
+
+3. Arithmetic operators:
+
+Increment operator: 
+Unary operator - only needs one operand.
+Add one to its operand.
+x=3
+3
+x++ (first print x and them increment by one)
+3
+x 
+4
+++x (first increment it then print it) 
+5
+
+Decrement operator:
+x--
+5
+x
+4
+--x
+3
+
+Unary negation: return the nagation of its operand
+x = 3 
+-x
+-3
+Unary plus: convert its operand to a number if not already 
+X = 3
++3
+3
++"3"
+3
++true
+1
++false
+0
+
+4. Concatenation operator or the plus:
+That can be apllied to a string
+Ex. 
+x="Hello"
+y="world!"
+x+y
+"Hello world!"
+x+="hello!"
+"Hello hello!"
+"32" + "3232"
+"323232"
+
