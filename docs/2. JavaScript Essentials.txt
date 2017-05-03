@@ -243,3 +243,32 @@ if(this consition is not met) {} else {then we do this}
 
 Ternary Operator or conditional operator:
 It's a special case because it's only a JavaScript operator that takes three operates
+
+-----------
+2.7 Loops
+-----------
+
+A loop is a piece of code that executes repeatedly either a set number of times or until a certain condition is met.
+
+Three main types of loops:
+- for 
+- do-while
+- while
+
+
+1. For loop:
+Will repeat until a specified condition evaluates to false.
+
+for (initialize a variable or a counter ; follows the condition ; the incremental expression) { main statement }
+
+The condition is the thing that's gonna to be evaluated.
+Incremental expression is used to increment the counter 
+
+
+2. Do-while Loop:
+Will repeat until a specific condition evaluates to false
+
+do {statement} while (condition)
+
+2. While Loop:
+Will execute the statement only if the condition is met. 
