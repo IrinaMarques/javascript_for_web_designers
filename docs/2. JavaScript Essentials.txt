@@ -270,5 +270,22 @@ Will repeat until a specific condition evaluates to false
 
 do {statement} while (condition)
 
-2. While Loop:
+
+3. While Loop:
 Will execute the statement only if the condition is met. 
+
+--------------
+2.8 Functions
+--------------
+
+Sub programs that can have their own name
+Can be called any time
+Can recive parameters
+Can return values
+
+To work with functions you must first declare the function
+
+call function 
+give a name
+(specify a list of parameters)
+{ code that will be execute by the function }
