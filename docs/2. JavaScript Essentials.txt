@@ -328,3 +328,25 @@ How to manipulate all the reference objects or elements in my page?
 - Use the Css properti using the style property
 
 firstItem.style.color = "red";
+
+------------
+2.10 Events
+------------
+
+Events happens on the HTML side.
+In JavaScript we listen the events and react accordingly.
+
+An event can be:
+- triggered by the browser (when the page finish loading, image finish downloading)
+- triggered by the user (click a button)
+
+Listen to the events:
+- HTML inline
+- JavaScript with addEventListener
+
+HTML inline:
+<button id='submit' onclick="console.log('Button clicked!')">Click me</button>
+
+JavaScript with addEventListener:
+.addEventListener
+.removeEventListener
