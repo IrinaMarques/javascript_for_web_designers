@@ -289,3 +289,42 @@ call function
 give a name
 (specify a list of parameters)
 { code that will be execute by the function }
+
+--------------
+2.9 Selectors
+--------------
+
+Give acess to the DOM and allow to manipulate it. 
+
+Some of the more popular or well known selectors to use as a web designer.
+
+console.log(document.body); 
+- give us the body properties
+
+console.log(document.images);
+- give us the image properties like the URL, the alt, the class name, width and height, the src...
+
+Start using selectors and manipulate them, start doing things with them. 
+
+1. Get elements by the ID:
+var firstItem = document.getElementById('item-1')
+console.log(firstItem)
+- will return the first element 
+- Returns a single element because it's not possible to use the same id in another element
+
+2. Get elements by the same class:
+var myList = document.getElementsByClass('mylist')
+console.log(myList)
+
+3. Get elements by tag name:
+var paragraphs = document.getElementsByTagName('p');
+console.log(paragraphs);
+
+4. querySelectorAll select all:
+var images = document.querySelectorAll('img');
+console.log(images);
+
+How to manipulate all the reference objects or elements in my page?
+- Use the Css properti using the style property
+
+firstItem.style.color = "red";

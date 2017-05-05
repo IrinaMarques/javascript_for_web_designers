@@ -43,3 +43,39 @@ function test() {
 
 test();
 console.log(x);
+
+/*3 maneiras de declarar funções */
+//como variavel
+var nomeDaFuncao = function() {
+	return "rui"
+};
+
+//como nome
+function nomeDaFuncao () {
+
+};
+
+//anonima
+(function() {
+	console.log("ENTRA AKI")
+});
+
+var personJames = new Object();
+personJames.name = "James";
+personJames.age = 43;
+
+var personAna = new Object();
+personAna.name = "Ana";
+personAna.age = 68;
+
+var getPersonName = function(person) {
+	if(person){
+		return person.name;
+	}
+	return 'Put your name';
+};
+
+
+//console.log( getPersonName() );
+//console.log( getPersonName(personJames) );
+//console.log( getPersonName(personAna) );
